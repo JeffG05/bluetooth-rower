@@ -1,5 +1,5 @@
 # Bluetooth Rower
-A iOS application to connect a Concept2 PM5 rowing machine to fitness apps such as Zwift via bluetooth
+An iOS application to connect a Concept2 PM5 rowing machine to fitness apps such as Zwift via bluetooth
 
 <img src="https://github.com/JeffG05/bluetooth-rower/blob/main/AppIcon.png?raw=true" height="100">
 

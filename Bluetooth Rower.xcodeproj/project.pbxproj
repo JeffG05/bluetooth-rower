@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2ACC4E4525C5709700686D48 /* Bluetooth_RowerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC4E4425C5709700686D48 /* Bluetooth_RowerApp.swift */; };
-		2ACC4E4725C5709700686D48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC4E4625C5709700686D48 /* ContentView.swift */; };
 		2ACC4E4925C5709800686D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ACC4E4825C5709800686D48 /* Assets.xcassets */; };
 		2ACC4E4C25C5709800686D48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ACC4E4B25C5709800686D48 /* Preview Assets.xcassets */; };
 		2ACC4E5725C5709800686D48 /* Bluetooth_RowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC4E5625C5709800686D48 /* Bluetooth_RowerTests.swift */; };
 		2ACC4E6225C5709800686D48 /* Bluetooth_RowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC4E6125C5709800686D48 /* Bluetooth_RowerUITests.swift */; };
+		2ACC4E7C25C5723A00686D48 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC4E7B25C5723A00686D48 /* BLEManager.swift */; };
+		2ACC4E8125C5727A00686D48 /* PairRowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC4E8025C5727A00686D48 /* PairRowerView.swift */; };
+		2ACC4E8625C5729700686D48 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC4E8525C5729700686D48 /* Helpers.swift */; };
+		2ACC4E8B25C572AE00686D48 /* ConnectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC4E8A25C572AE00686D48 /* ConnectedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,6 @@
 /* Begin PBXFileReference section */
 		2ACC4E4125C5709700686D48 /* Bluetooth Rower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bluetooth Rower.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACC4E4425C5709700686D48 /* Bluetooth_RowerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_RowerApp.swift; sourceTree = "<group>"; };
-		2ACC4E4625C5709700686D48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2ACC4E4825C5709800686D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ACC4E4B25C5709800686D48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2ACC4E4D25C5709800686D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +47,10 @@
 		2ACC4E5D25C5709800686D48 /* Bluetooth RowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluetooth RowerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACC4E6125C5709800686D48 /* Bluetooth_RowerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_RowerUITests.swift; sourceTree = "<group>"; };
 		2ACC4E6325C5709800686D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ACC4E7B25C5723A00686D48 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		2ACC4E8025C5727A00686D48 /* PairRowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairRowerView.swift; sourceTree = "<group>"; };
+		2ACC4E8525C5729700686D48 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		2ACC4E8A25C572AE00686D48 /* ConnectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				2ACC4E4425C5709700686D48 /* Bluetooth_RowerApp.swift */,
-				2ACC4E4625C5709700686D48 /* ContentView.swift */,
 				2ACC4E4825C5709800686D48 /* Assets.xcassets */,
 				2ACC4E4D25C5709800686D48 /* Info.plist */,
 				2ACC4E4A25C5709800686D48 /* Preview Content */,
+				2ACC4E7B25C5723A00686D48 /* BLEManager.swift */,
+				2ACC4E8025C5727A00686D48 /* PairRowerView.swift */,
+				2ACC4E8525C5729700686D48 /* Helpers.swift */,
+				2ACC4E8A25C572AE00686D48 /* ConnectedView.swift */,
 			);
 			path = "Bluetooth Rower";
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ACC4E4725C5709700686D48 /* ContentView.swift in Sources */,
+				2ACC4E8125C5727A00686D48 /* PairRowerView.swift in Sources */,
 				2ACC4E4525C5709700686D48 /* Bluetooth_RowerApp.swift in Sources */,
+				2ACC4E8B25C572AE00686D48 /* ConnectedView.swift in Sources */,
+				2ACC4E7C25C5723A00686D48 /* BLEManager.swift in Sources */,
+				2ACC4E8625C5729700686D48 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +439,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffg.Bluetooth-Rower";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffg.BLE-Rower";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,7 +461,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffg.Bluetooth-Rower";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffg.BLE-Rower";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

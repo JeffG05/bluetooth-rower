@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ACC4E4525C5709700686D48 /* Bluetooth_RowerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC4E4425C5709700686D48 /* Bluetooth_RowerApp.swift */; };
+		2ACC4E4725C5709700686D48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC4E4625C5709700686D48 /* ContentView.swift */; };
+		2ACC4E4925C5709800686D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ACC4E4825C5709800686D48 /* Assets.xcassets */; };
+		2ACC4E4C25C5709800686D48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ACC4E4B25C5709800686D48 /* Preview Assets.xcassets */; };
+		2ACC4E5725C5709800686D48 /* Bluetooth_RowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC4E5625C5709800686D48 /* Bluetooth_RowerTests.swift */; };
+		2ACC4E6225C5709800686D48 /* Bluetooth_RowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC4E6125C5709800686D48 /* Bluetooth_RowerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2ACC4E5325C5709800686D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ACC4E3925C5709700686D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ACC4E4025C5709700686D48;
+			remoteInfo = "Bluetooth Rower";
+		};
+		2ACC4E5E25C5709800686D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ACC4E3925C5709700686D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ACC4E4025C5709700686D48;
+			remoteInfo = "Bluetooth Rower";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2ACC4E4125C5709700686D48 /* Bluetooth Rower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bluetooth Rower.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ACC4E4425C5709700686D48 /* Bluetooth_RowerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_RowerApp.swift; sourceTree = "<group>"; };
+		2ACC4E4625C5709700686D48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2ACC4E4825C5709800686D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2ACC4E4B25C5709800686D48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2ACC4E4D25C5709800686D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ACC4E5225C5709800686D48 /* Bluetooth RowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluetooth RowerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ACC4E5625C5709800686D48 /* Bluetooth_RowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_RowerTests.swift; sourceTree = "<group>"; };
+		2ACC4E5825C5709800686D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ACC4E5D25C5709800686D48 /* Bluetooth RowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluetooth RowerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ACC4E6125C5709800686D48 /* Bluetooth_RowerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_RowerUITests.swift; sourceTree = "<group>"; };
+		2ACC4E6325C5709800686D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ACC4E3E25C5709700686D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ACC4E4F25C5709800686D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ACC4E5A25C5709800686D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ACC4E3825C5709700686D48 = {
+			isa = PBXGroup;
+			children = (
+				2ACC4E4325C5709700686D48 /* Bluetooth Rower */,
+				2ACC4E5525C5709800686D48 /* Bluetooth RowerTests */,
+				2ACC4E6025C5709800686D48 /* Bluetooth RowerUITests */,
+				2ACC4E4225C5709700686D48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ACC4E4225C5709700686D48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ACC4E4125C5709700686D48 /* Bluetooth Rower.app */,
+				2ACC4E5225C5709800686D48 /* Bluetooth RowerTests.xctest */,
+				2ACC4E5D25C5709800686D48 /* Bluetooth RowerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ACC4E4325C5709700686D48 /* Bluetooth Rower */ = {
+			isa = PBXGroup;
+			children = (
+				2ACC4E4425C5709700686D48 /* Bluetooth_RowerApp.swift */,
+				2ACC4E4625C5709700686D48 /* ContentView.swift */,
+				2ACC4E4825C5709800686D48 /* Assets.xcassets */,
+				2ACC4E4D25C5709800686D48 /* Info.plist */,
+				2ACC4E4A25C5709800686D48 /* Preview Content */,
+			);
+			path = "Bluetooth Rower";
+			sourceTree = "<group>";
+		};
+		2ACC4E4A25C5709800686D48 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2ACC4E4B25C5709800686D48 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2ACC4E5525C5709800686D48 /* Bluetooth RowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2ACC4E5625C5709800686D48 /* Bluetooth_RowerTests.swift */,
+				2ACC4E5825C5709800686D48 /* Info.plist */,
+			);
+			path = "Bluetooth RowerTests";
+			sourceTree = "<group>";
+		};
+		2ACC4E6025C5709800686D48 /* Bluetooth RowerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2ACC4E6125C5709800686D48 /* Bluetooth_RowerUITests.swift */,
+				2ACC4E6325C5709800686D48 /* Info.plist */,
+			);
+			path = "Bluetooth RowerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ACC4E4025C5709700686D48 /* Bluetooth Rower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ACC4E6625C5709800686D48 /* Build configuration list for PBXNativeTarget "Bluetooth Rower" */;
+			buildPhases = (
+				2ACC4E3D25C5709700686D48 /* Sources */,
+				2ACC4E3E25C5709700686D48 /* Frameworks */,
+				2ACC4E3F25C5709700686D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bluetooth Rower";
+			productName = "Bluetooth Rower";
+			productReference = 2ACC4E4125C5709700686D48 /* Bluetooth Rower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2ACC4E5125C5709800686D48 /* Bluetooth RowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ACC4E6925C5709800686D48 /* Build configuration list for PBXNativeTarget "Bluetooth RowerTests" */;
+			buildPhases = (
+				2ACC4E4E25C5709800686D48 /* Sources */,
+				2ACC4E4F25C5709800686D48 /* Frameworks */,
+				2ACC4E5025C5709800686D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ACC4E5425C5709800686D48 /* PBXTargetDependency */,
+			);
+			name = "Bluetooth RowerTests";
+			productName = "Bluetooth RowerTests";
+			productReference = 2ACC4E5225C5709800686D48 /* Bluetooth RowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2ACC4E5C25C5709800686D48 /* Bluetooth RowerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ACC4E6C25C5709800686D48 /* Build configuration list for PBXNativeTarget "Bluetooth RowerUITests" */;
+			buildPhases = (
+				2ACC4E5925C5709800686D48 /* Sources */,
+				2ACC4E5A25C5709800686D48 /* Frameworks */,
+				2ACC4E5B25C5709800686D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ACC4E5F25C5709800686D48 /* PBXTargetDependency */,
+			);
+			name = "Bluetooth RowerUITests";
+			productName = "Bluetooth RowerUITests";
+			productReference = 2ACC4E5D25C5709800686D48 /* Bluetooth RowerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ACC4E3925C5709700686D48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2ACC4E4025C5709700686D48 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2ACC4E5125C5709800686D48 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2ACC4E4025C5709700686D48;
+					};
+					2ACC4E5C25C5709800686D48 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2ACC4E4025C5709700686D48;
+					};
+				};
+			};
+			buildConfigurationList = 2ACC4E3C25C5709700686D48 /* Build configuration list for PBXProject "Bluetooth Rower" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ACC4E3825C5709700686D48;
+			productRefGroup = 2ACC4E4225C5709700686D48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ACC4E4025C5709700686D48 /* Bluetooth Rower */,
+				2ACC4E5125C5709800686D48 /* Bluetooth RowerTests */,
+				2ACC4E5C25C5709800686D48 /* Bluetooth RowerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ACC4E3F25C5709700686D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACC4E4C25C5709800686D48 /* Preview Assets.xcassets in Resources */,
+				2ACC4E4925C5709800686D48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ACC4E5025C5709800686D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ACC4E5B25C5709800686D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ACC4E3D25C5709700686D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACC4E4725C5709700686D48 /* ContentView.swift in Sources */,
+				2ACC4E4525C5709700686D48 /* Bluetooth_RowerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ACC4E4E25C5709800686D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACC4E5725C5709800686D48 /* Bluetooth_RowerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ACC4E5925C5709800686D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACC4E6225C5709800686D48 /* Bluetooth_RowerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ACC4E5425C5709800686D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ACC4E4025C5709700686D48 /* Bluetooth Rower */;
+			targetProxy = 2ACC4E5325C5709800686D48 /* PBXContainerItemProxy */;
+		};
+		2ACC4E5F25C5709800686D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ACC4E4025C5709700686D48 /* Bluetooth Rower */;
+			targetProxy = 2ACC4E5E25C5709800686D48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2ACC4E6425C5709800686D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2ACC4E6525C5709800686D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ACC4E6725C5709800686D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bluetooth Rower/Preview Content\"";
+				DEVELOPMENT_TEAM = 46B5GC92TB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Bluetooth Rower/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffg.Bluetooth-Rower";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2ACC4E6825C5709800686D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bluetooth Rower/Preview Content\"";
+				DEVELOPMENT_TEAM = 46B5GC92TB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Bluetooth Rower/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffg.Bluetooth-Rower";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2ACC4E6A25C5709800686D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46B5GC92TB;
+				INFOPLIST_FILE = "Bluetooth RowerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffg.Bluetooth-RowerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluetooth Rower.app/Bluetooth Rower";
+			};
+			name = Debug;
+		};
+		2ACC4E6B25C5709800686D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46B5GC92TB;
+				INFOPLIST_FILE = "Bluetooth RowerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffg.Bluetooth-RowerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluetooth Rower.app/Bluetooth Rower";
+			};
+			name = Release;
+		};
+		2ACC4E6D25C5709800686D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46B5GC92TB;
+				INFOPLIST_FILE = "Bluetooth RowerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffg.Bluetooth-RowerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bluetooth Rower";
+			};
+			name = Debug;
+		};
+		2ACC4E6E25C5709800686D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46B5GC92TB;
+				INFOPLIST_FILE = "Bluetooth RowerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffg.Bluetooth-RowerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bluetooth Rower";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ACC4E3C25C5709700686D48 /* Build configuration list for PBXProject "Bluetooth Rower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ACC4E6425C5709800686D48 /* Debug */,
+				2ACC4E6525C5709800686D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ACC4E6625C5709800686D48 /* Build configuration list for PBXNativeTarget "Bluetooth Rower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ACC4E6725C5709800686D48 /* Debug */,
+				2ACC4E6825C5709800686D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ACC4E6925C5709800686D48 /* Build configuration list for PBXNativeTarget "Bluetooth RowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ACC4E6A25C5709800686D48 /* Debug */,
+				2ACC4E6B25C5709800686D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ACC4E6C25C5709800686D48 /* Build configuration list for PBXNativeTarget "Bluetooth RowerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ACC4E6D25C5709800686D48 /* Debug */,
+				2ACC4E6E25C5709800686D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ACC4E3925C5709700686D48 /* Project object */;
+}

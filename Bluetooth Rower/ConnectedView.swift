@@ -34,7 +34,7 @@ struct ConnectedView: View {
         GeometryReader { proxy in
             VStack {
                 ScrollView {
-                    Text("C2 to Zwift")
+                    Text("Bluetooth Rower")
                         .font(.largeTitle)
                         .bold()
                         .padding(.top, 24)
